@@ -1,0 +1,22 @@
+body {
+    font: 1em monospace;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+#container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#container img{
+    position: fixed;
+    right: 10%;
+    height: 450px;
+    width: 900px;
+}
+#container p{
+    margin: 0;
+}

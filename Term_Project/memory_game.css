@@ -1,0 +1,15 @@
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 500px;
+}
+  
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}

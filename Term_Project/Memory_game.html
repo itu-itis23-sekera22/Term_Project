@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title> Memory Game </title>
+        <link rel="stylesheet" type="text/css" href="memory_game.css">
+    </head>
+    <body>
+        <button onclick="startGame()"> Start Game </button>
+        <button onclick="restartGame()"> Restart </button>
+        <p> Score: <span id="score">0</span></p>
+        <div id="game-board">
+            <img src="letter_A.svg" class="card" onclick="turnCardFaceUp(event)" id="A">
+            <img src="letter_T.svg" class="card" onclick="turnCardFaceUp(event)" id="T"> 
+            <img src="letter_A.svg" class="card" onclick="turnCardFaceUp(event)" id="A"> 
+            <img src="num_1.svg" class="card" onclick="turnCardFaceUp(event)" id="1"> 
+            <img src="num_2.svg" class="card" onclick="turnCardFaceUp(event)" id="2"> 
+        </div>
+        <script src="memory_game.js"></script>
+    </body>
+</html>
